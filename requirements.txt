@@ -1,0 +1,26 @@
+# 后端和数据验证
+
+fastapi>=0.110.0
+uvicorn[standard]>=0.28.0
+pydantic>=2.6.0
+python-multipart>=0.0.9
+
+# 数据库
+sqlalchemy>=2.0.25
+# psycopg2-binary>=2.9.9
+
+# 文件解析模块
+pdfplumber>=0.11.0
+pandas>=2.2.0
+openpyxl>=3.1.2
+
+# 模型和RAG向量搜素
+openai>=1.14.0
+langchain>=0.1.13
+langchain-openai>=0.1.1
+chromadb>=0.4.24
+sentence-transformers>=2.5.1 
+
+# 通用工具
+
+python-dotenv>=1.0.1
